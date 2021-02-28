@@ -13,8 +13,8 @@ export class App extends Component {
 
   componentDidMount() {
     axios.get(QOUTE_API).then((res) => {
-      const { author, content, length, tags } = res.data;
-      this.setState({ author, content, length, tags, loading: false })
+      const { author, content, tags } = res.data;
+      this.setState({ author, content, tags, loading: false })
     }).catch((err) => console.log(err))
   }
 
