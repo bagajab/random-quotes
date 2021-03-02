@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EACI,kCAAqC,CACrC,sBAAwB,CACxB,cACJ","file":"main.84abb18f.chunk.css","sourcesContent":["p {\n    font-family: 'Lora', serif !important;\n    padding: 20px !important;\n    font-size: 25px;\n}"]}
